@@ -27,6 +27,8 @@ Button{
     color:white;
     padding:10px 20px;
     border: 2px solid #097cdb;
+    font-size: 16px;
+    font-weight: 600;
 }
 Button:hover{
     background-color: transparent;
@@ -49,7 +51,7 @@ nav{
 }
 .logo img{
     width: 100px;
-    height: 106px;
+    height: 56px;
 }
 .navbar ul{
     display: flex;
@@ -90,6 +92,16 @@ nav{
     box-shadow:  2px 5px 15px gray;
     padding: 20px;
 }
+.course_details h3{
+    color:#1e3799;
+    margin-bottom: 10px;
+}
+.course_details p{
+    color:#6a89cc;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
 .course_img img{
     width: 100%;
     border-radius: 10px;
@@ -100,7 +112,20 @@ nav{
     justify-content: space-between;
 }
 .duration{
-    color:orangered;
+    color:#e74c3c;
+    border-radius: 15px;
+    padding:10px 20px;
+    background-color: #dcdde1;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rating{
+    color:#f9ca24;
+    border-radius: 15px;
+    padding:10px 20px;
+    font-weight: 600;
+    text-align: center;
 }
 /* Latest course section style */
 
@@ -126,6 +151,7 @@ nav{
 }
 .instructor_details p{
     color:#097cdb;
+    font-weight: 600;
 }
 .instructor_img img{
     width: 100px;
