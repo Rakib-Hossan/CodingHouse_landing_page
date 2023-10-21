@@ -168,6 +168,9 @@ nav{
 /* Instructors section style */
 
 /* blogs section style */
+#latest_blogs .section-title{
+    padding-top: 0px;
+}
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -189,4 +192,70 @@ nav{
 .blog_details{
     flex-basis: 50%;
 }
+.blog_title{
+    color:#30336b;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.author_name{
+    margin-bottom: 5px;
+    color: #636e72;
+    font-weight: 600;
+}
+.author_name span{
+    color:#097cdb;
+    font-weight: 600;
+}
+.blog_content{
+    margin-bottom: 15px;
+    color: #636e72;
+}
+.more_btn a{
+    border: 2px solid #097cdb;
+    padding:5px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color:#097cdb;
+}
+
+.more_btn a:hover {
+    color:#30336b;
+    border: 2px solid #30336b;
+}
+
 /* blogs section style */
+
+/* footer section */
+footer{
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #3498db;
+}
+.social{
+    font-size: 30px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social .fa-brands{
+    margin-right: 20px;
+}
+address{
+    font-size: 20px;
+}
+footer>p{
+    font-size: 20px;
+    padding:30px;
+}
+/* footer section */
