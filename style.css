@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* common style  */
+body{
+    background-color:#dff9fb;
+}
+section{
+    background-color: white;
+    width:1240px;
+    margin: 0 auto 10px;
+}
+section hr{
+    border: 1px solid #097cdb;
+    width: 1100px;
+    margin: 5px auto 0px;
+}
+.section-title{
+    color:#097cdb;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+Button{
+    background-color: #097cdb;
+    color:white;
+    padding:10px 20px;
+    border: 2px solid #097cdb;
+}
+Button:hover{
+    background-color: transparent;
+    color:#097cdb;
+}
+/* common style  */
+/* header section style  */
+header{
+    background-color:#3498db;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    width:1240px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 106px;
+}
+.navbar ul{
+    display: flex;
+    gap:30px;
+}
+.navbar ul li{
+    list-style-type:none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid #30336b;
+}
+
+/* header section style  */
+
+
+/* Latest course section style */
+.latest_courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    place-items: center;
+    padding: 30px;
+}
+.course{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow:  2px 5px 15px gray;
+    padding: 20px;
+}
+.course_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.courseRaputation{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.duration{
+    color:orangered;
+}
+/* Latest course section style */
+
+
+/* Instructors section style */
+
+.Instructors{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    place-items: center;
+    padding: 30px;
+}
+
+.instructor{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.instructor_details h2{
+    color:#30336b;
+}
+.instructor_details p{
+    color:#097cdb;
+}
+.instructor_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* Instructors section style */
