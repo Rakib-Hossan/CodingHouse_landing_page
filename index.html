@@ -28,9 +28,9 @@
             <div class="navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Instructors</a></li>
-                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#top_instructor">Instructors</a></li>
+                    <li><a href="#latest_blogs">Blogs</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,10 +38,10 @@
 
     <main>
         <!-- courses section -->
-        <section>
-            <h2 class="section-title">Latest Courses</h2>
+        <section id="courses">
+            <h2 class="section-title">Top Courses</h2>
             <hr>
-            <section class="latest_courses">
+            <section class="top_courses">
                 <div class="course">
                     <div class="course_img">
                         <img src="/imgaes/courses/python.png" alt="" srcset="">
@@ -55,7 +55,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4.5/5</p>
                             </div>
                             <div class="duration">
                                 <span>	<i class="fa-regular fa-clock"></i> 02:16:01</span>
@@ -77,7 +80,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4.5/5</p>
                             </div>
                             <div class="duration">
                                 <span><i class="fa-regular fa-clock"></i> 03:16:01</span>
@@ -99,7 +105,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4.5/5</p>
                             </div>
                             <div class="duration">
                                 <span>	<i class="fa-regular fa-clock"></i> 02:40:01</span>
@@ -121,7 +130,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4/5</p>
                             </div>
                             <div class="duration">
                                 <span>	<i class="fa-regular fa-clock"></i> 05:16:21</span>
@@ -143,7 +155,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4.5/5</p>
                             </div>
                             <div class="duration">
                                 <span>	<i class="fa-regular fa-clock"></i> 12:16:01</span>
@@ -165,7 +180,10 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span>4/5</span>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="rating_number">
+                                <p>4/5</p>
                             </div>
                             <div class="duration">
                                 <span>	<i class="fa-regular fa-clock"></i> 01:30:41</span>
@@ -179,64 +197,116 @@
         <!-- courses section  -->
 
         <!-- instructor section -->
-        <section>
-            <h2 class="section-title">Top Instructors</h2>
+        <section id="container">
+            <section id="top_instructor">
+                <h2 class="section-title">Top Instructors</h2>
             <hr>
-            <section class="Instructors">
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/1.png" alt="" srcset="">
+                <section class="Instructors">
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/1.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>Mark John</h2>
+                            <p>Python Developer</p>
+                        </div>
                     </div>
-                    <div class="instructor_details">
-                        <h2>Mark John</h2>
-                        <p>Python Developer</p>
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/2.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>Tasnim Fariha</h2>
+                            <p>C++ Developer</p>
+                        </div>
                     </div>
-                </div>
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/2.png" alt="" srcset="">
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/3.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>Maria Henry</h2>
+                            <p>Full Stack Developer</p>
+                        </div>
                     </div>
-                    <div class="instructor_details">
-                        <h2>Tasnim Fariha</h2>
-                        <p>C++ Developer</p>
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/4.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>Henry Tim</h2>
+                            <p>App Developer</p>
+                        </div>
                     </div>
-                </div>
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/3.png" alt="" srcset="">
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/5.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>David Malan</h2>
+                            <p>JavaScript Developer</p>
+                        </div>
                     </div>
-                    <div class="instructor_details">
-                        <h2>Maria Henry</h2>
-                        <p>Full Stack Developer</p>
+                    <div class="instructor">
+                        <div class="instructor_img">
+                            <img src="/imgaes/instructor/6.png" alt="" srcset="">
+                        </div>
+                        <div class="instructor_details">
+                            <h2>Disha Rakshit</h2>
+                            <p>Dev Ops Developer</p>
+                        </div>
                     </div>
-                </div>
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/4.png" alt="" srcset="">
+                </section>
+            </section>
+            <section id="latest_blogs">
+                <h2 class="section-title">Latest Blogs</h2>
+                <hr>
+                <article class="blogs">
+                    <div class="blog">
+                        <div class="blog_img">
+                            <img src="/imgaes/blogs/jsblogproblem.png" alt="" srcset="">
+                        </div>
+                        <div class="blog_details">
+                            <h3 class="blog_title">Three Common Sorting Algorithms with JavaScript</h3>
+                            <p class="author_name">By Tasnim Fariha </p>
+                            <p>In this article, we’ll learn about three common sorting algorithms: bubble sort, selection sort, and merge sort. We’ll explore what they’re useful for, as well as how to implement them in JavaScript.</p>
+                            <a href="#">See more</a>
+                        </div>
                     </div>
-                    <div class="instructor_details">
-                        <h2>Henry Tim</h2>
-                        <p>App Developer</p>
+                    <div class="blog">
+                        <div class="blog_img">
+                            <img src="/imgaes/blogs/reactblog.png" alt="" srcset="">
+                        </div>
+                        <div class="blog_details">
+                            <h3 class="blog_title">Create React App Alternatives in 2023</h3>
+                            <p class="author_name">By Disha Raksit </p>
+                            <p>Dan Abramov responded to a GitHub pull request that addressed the issues newer developers find themselves facing by using create-react-app (CRA).</p>
+                            <a href="#">See more</a>
+                        </div>
                     </div>
-                </div>
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/5.png" alt="" srcset="">
+                    <div class="blog">
+                        <div class="blog_img">
+                            <img src="/imgaes/blogs/jsproblem.png" alt="" srcset="">
+                        </div>
+                        <div class="blog_details">
+                            <h3 class="blog_title">How to Think Like a Developer: The Art of Problem Solving</h3>
+                            <p class="author_name">By Maria Henry </p>
+                            <p>In the fast-paced world of technology, developers are the architects of our digital age. We are creative problem solvers who build the applications, websites, and software that shape billions of people’s lives.</p>
+                            <a href="#">See more</a>
+                        </div>
                     </div>
-                    <div class="instructor_details">
-                        <h2>David Malan</h2>
-                        <p>JavaScript Developer</p>
+                    <div class="blog">
+                        <div class="blog_img">
+                            <img src="/imgaes/blogs/jsblog.png" alt="" srcset="">
+                        </div>
+                        <div class="blog_details">
+                            <h3 class="blog_title">10 Common JavaScript Errors and How to Avoid Them</h3>
+                            <p class="author_name">By David Malan </p>
+                            <p>JavaScript, the backbone of modern web development, empowers developers to create dynamic and interactive websites. However, mastering this language comes with challenges.</p>
+                            <a href="#">See more</a>
+                        </div>
                     </div>
-                </div>
-                <div class="instructor">
-                    <div class="instructor_img">
-                        <img src="/imgaes/instructor/6.png" alt="" srcset="">
-                    </div>
-                    <div class="instructor_details">
-                        <h2>Disha Rakshit</h2>
-                        <p>Dev Ops Developer</p>
-                    </div>
-                </div>
+                </article>
             </section>
         </section>
         <!-- instructor section -->

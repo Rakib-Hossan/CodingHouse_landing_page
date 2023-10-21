@@ -75,12 +75,12 @@ nav{
 
 
 /* Latest course section style */
-.latest_courses{
+.top_courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     place-items: center;
-    padding: 30px;
+    padding: 30px 80px;
 }
 .course{
     display: flex;
@@ -110,6 +110,7 @@ nav{
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 .duration{
     color:#e74c3c;
@@ -123,9 +124,15 @@ nav{
 .rating{
     color:#f9ca24;
     border-radius: 15px;
-    padding:10px 20px;
     font-weight: 600;
     text-align: center;
+    padding:10px 0px;
+}
+.rating_number p{
+    color:grey;
+    font-size: 18px;
+    margin-bottom: 0px;
+
 }
 /* Latest course section style */
 
@@ -159,3 +166,27 @@ nav{
     border-radius: 50%;
 }
 /* Instructors section style */
+
+/* blogs section style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 30px 80px;
+    place-items: center;
+}
+.blog{
+    display: flex;
+    gap: 20px;
+}
+.blog_img{
+    flex-basis: 50%;
+}
+.blog_img img{
+    width:100%;
+    height: 100%;
+}
+.blog_details{
+    flex-basis: 50%;
+}
+/* blogs section style */
