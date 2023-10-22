@@ -5,7 +5,7 @@
         width: 100%;
     }
     section hr{
-        width: 100%;
+        width: 90%;
     }
     Button{
         font-size: 4vw;
@@ -106,7 +106,7 @@
         width: 100%;
     }
     section hr{
-        width: 100%;
+        width: 90%;
     }
     /* common style */
 
@@ -120,6 +120,9 @@
     .top_courses{
         grid-template-columns: repeat(2,1fr);
         padding: 30px 30px;
+    }
+    .courseRaputation{
+        font-size: 12px;
     }
    
     /* responsive course section */
@@ -159,6 +162,9 @@
     /* responsive navigation section  */
 
     /* responsive course section */
+    .top_courses{
+        padding: 30px 20px;
+    }
     .courseRaputation{
         flex-direction: column;
         font-size: 16px;
@@ -166,5 +172,21 @@
         margin-bottom: 10px;
         align-items: baseline;
     }
+
+    .blog{
+        flex-direction: column;
+    }
 }
-/* For medium device  */
+/* For large device  */
+
+@media screen and (min-width:1025px) and (max-width:1240px){
+    section{
+        width: 100%;
+    }
+    section hr{
+        width: 100%;
+    }
+    nav{
+        width: 90%;
+    }
+}
